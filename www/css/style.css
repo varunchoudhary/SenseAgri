@@ -1,0 +1,233 @@
+/* Empty. Add your own CSS if you like */
+
+
+html,body{
+	height: 100%;
+	background-color: grey;
+}
+head{
+	background-color: #e38261;
+}
+
+
+.heading{
+	font-family:'Raleway' ;
+	font-size: 48px;
+	text-align: center;
+}
+.context{
+	font-family: 'Assistant';
+	font-size: 16px;
+
+}
+.header{
+	position:relative;
+	width: 100%;
+	height:450px;
+	background-color: #e38261;
+	background-image:url(../img/farm3.png);
+	background-position: top center;	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: auto 600px;
+	background-color:;
+	position : relative;
+	overflow:hidden;
+	opacity:.2;
+	
+} 
+.logo{
+	top: -120px;
+	height:100%;
+	width: 100%;
+	background-image: url(../img/agrilogo.png);
+	background-size: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	opacity:2; 
+}
+.container{
+	position: relative;
+}
+.predictivehome{
+	background-color: #abd2c9;
+
+}
+.maphome{
+	background-color: #8dc3a1;
+}
+.researchhome{
+	background-color: #d8f0ad;
+}
+
+
+/*@media (max-width: 400px){
+	body{
+		background-image:url(../img/farm3a.png);
+		background-position: center center;	
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		height:50%;
+		position : relative;
+	}
+}
+*/
+
+/* grapgh form*/
+.form{
+	width: 100%;
+	height: 50px;
+	border-style: solid;
+	border-color :#0b8973  ;
+	border-left-width: 4px  ;
+	border-top-width: 1px;
+	border-bottom-width: 4px;
+	border-right-width: 1px;
+	background-color:#095560; 
+	opacity: 0.5;
+}
+.form:hover{
+	border-top-width: 0px;
+	border-right-width: 0px;
+	background-color:#013129; 
+	opacity: 0.5;
+}
+.form:active{
+	border-top-width: 0px;
+	border-right-width: 0px;
+	background-color:#013129; 
+}
+.lables{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	font-weight: 10px;
+	color:#f4f6dd;
+}
+.form-button{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	font-weight: 10px;
+	color:#f4f6dd;
+	border-style: solid;
+	border-color :#0b8973  ;
+	border-left-width: 0px  ;
+	border-top-width: 0px;
+	border-bottom-width: 4px;
+	border-right-width: 0px;
+	background-color:#013129;
+	padding: 10px;
+}
+.form-button:hover{
+	border-left-width:0.1px  ;
+	border-top-width: 0.1px;
+	border-bottom-width: 4px;
+	border-right-width: 0.1px;
+	
+}
+
+.content>div{
+	position: relative;
+	/*opacity: 0;
+	transform: translateX(20px);
+	transition: all .3s ease-in-out;*/
+}
+
+/* research card*/
+.rcard{
+	background-color: white;
+	border-width: 2px;
+	position: center;
+	border-style: solid;
+	border-color: grey;
+	padding: 10px;
+	margin: 20px;
+
+	
+}
+
+.researchcontainer{
+	opacity: 0;
+	transform: translateX(20px);
+	transition: all .3s ease-in-out;
+}
+
+
+
+.full-image{
+	width: 100%;
+	height: auto;
+}
+
+.containergraph{
+	background-color: #013129;
+}
+/* for menu popovers*/
+
+.graphtab{
+	bottom: 0;
+	right: 150px;
+
+}
+.mapformtab{
+	bottom: 0;
+	right: 75px;
+}
+.researchtab{
+	bottom: 0;
+	right: 0px;
+	margin-right: 50px;
+}
+
+
+/* Empty. Add your own CSS if you like */
+@font-face{
+    font-family: 'fontawesome';
+    src:url('../fonts/fontawesome-webfont.eot');
+    src:url('../fonts/fontawesome-webfont.eot') format('embedded-opentype'),
+        url('../fonts/fontawesome-webfont.woff') format('woff'),
+        url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+        url('../fonts/fontawesome-webfont.svg') format('svg');            
+    font-weight: normal;
+    font-style: normal;
+}
+.icon-google-wallet:before{
+    font-family: "fontawesome";
+    content: '\f1ee'
+}
+.scroll{
+    height: 100%;
+}
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+
+#searchmarket {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 70%;
+    margin-bottom: 0;
+    line-height: 15px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+#searchmarket:focus {
+    border-color: #4d90fe;
+}
+
+#iw_container .iw_title {
+    font-size: 16px;
+    font-weight: bold;
+}
+.iw_content {
+    padding: 15px 15px 15px 0;
+}
+

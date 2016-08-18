@@ -1,0 +1,26 @@
+<ion-content has-subheader="false">
+<div class="container researchcontainer">
+		<div class="list card rcard "  ng-repeat="news in data">
+							
+								<div class="item item-avatar ">
+										    <h2>{{news.title}}</h>
+								</div>
+
+								<div class="item item-body row">	  
+											   	<div class="col-lg-6">
+											   	<img class="full-image" class="img-responsive" alt="Responsive image" ng-src="{{news.src}}">
+
+											    </div>
+												  <div class="col-lg-4 ">
+												     	{{news.p}} 
+														<br>
+												     	<hr> 	
+														<br>
+													{{news.link}}	
+											   </div>
+											    
+								</div>
+							
+	 </div>
+</div>
+</ion-content>

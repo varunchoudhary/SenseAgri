@@ -1,0 +1,32 @@
+
+<ion-content has-subheader="false">
+<div class="containergraph" ng-controller="graphformCtrl">
+<br><br>
+
+        <div class="container">
+          <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-6">  
+                <div class="list ">
+                  <form novalidate class="simple-form">   
+                      <span class="input-label lables">commodity : </span>
+                      <input type="text" placeholder=" ex. wheat" class="form lables" ng-model="graph.commodity"><h1></h1>
+                    </label>
+                     <br><br>
+                    
+                      <span class="input-label lables">market :</span>
+                      <input type="text" placeholder=" ex. azadpur" class="form lables" ng-model="graph.  market">
+                    </label>
+                   <br><br>
+                    <input type="button" class="form-button" ng-click="reset()" value="Reset" />
+                    <button class="form-button" ng-click="update(graph)">submit</button>
+                  </form>
+                  <pre> graph = {{graph | json}}</pre>
+                  <pre> master = {{master | json}}</pre>
+            </div>
+
+            <div class="col-md-5"></div>
+          </div>
+        </div>
+</div>
+</ion-content>

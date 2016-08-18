@@ -1,0 +1,66 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title> SenseAgri</title>
+    
+    <!-- css -->
+    <link href="lib/ionic/css/ionic.css" > 
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+     <link href="css/style.css" rel="stylesheet">
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css?family=Assistant:200,300|Raleway:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600" rel="stylesheet">
+    <link href="lib/ion-floating-menu/dist/ion-floating-menu.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.css">
+   
+ <link href="http://code.ionicframework.com/1.0.0-beta.1/css/ionic.min.css" rel="stylesheet">
+  
+   
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places"></script>
+
+    <!-- ionic/angularjs js -->
+    <script type="text/javascript" src="lib/ionic/js/ionic.bundle.min.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+    
+
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <script src="lib/ion-floating-menu/dist/ion-floating-menu.js" type="text/javascript"></script>
+     
+    <!-- your app's js -->
+    
+     <script src="js/geolocation-marker.js"></script>
+   
+  
+  <script type="text/javascript" src=https://code.jquery.com/jquery-git.min.js></script>
+   
+   
+   <link href="css/style.css" rel="stylesheet">
+   
+ 
+    <script type="text/javascript" src="js/app.js"></script>
+</head>  
+<body ng-app="App">
+
+
+<a href="#home"><ion-floating-button icon="ion-ios-home" ui-sref="home"></ion-floating-button></a>
+
+
+     <ion-floating-button class="graphtab" icon="ion-arrow-graph-up-left" ui-sref="graphform" >
+       
+     </ion-floating-button>
+    <a href="#map"><ion-floating-button  class="mapformtab" icon="ion-pin" ui-sref="map" ></ion-floating-button></a>
+   <a href="#research"><ion-floating-button class="researchtab" icon="ion-ios-book" ui-sref="research"> </ion-floating-button></a>
+
+
+
+  <ion-nav-view></ion-nav-view>
+ 
+
+  <script type="text/javascript" src="js/home.js"></script>
+
+      </body>
+</html>
